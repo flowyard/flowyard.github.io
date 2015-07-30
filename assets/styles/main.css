@@ -119,6 +119,7 @@ Icons
 .icon.facebook:before { content: "\f231"; }
 .icon.linkedin:before { content: "\f239"; }
 .icon.email:before { content: "\f10f"; }
+.icon.github:before { content: "\f233"; }
 .icon.submit:before { content: "\f3fd"; }
 .icon.error:before { content: "\f404"; }
 .icon.success:before { content: "\f3fd"; }
