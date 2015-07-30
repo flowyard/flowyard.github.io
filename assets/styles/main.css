@@ -13,6 +13,13 @@ body {
     overflow: auto;
 }
 
+#particles-js {
+    width: calc(100% - 0px);
+    position: absolute;
+    z-index: 1;
+    margin-top: -200px;
+}
+
 /***********************************************************************************
   
 Typography
@@ -212,7 +219,6 @@ Intro
 
 #intro {
     padding: 83px 0 100px;
-    
     display: none;
 }
 
@@ -233,6 +239,8 @@ Subscribe
 ************************************************************************************/
 
 #subscribe {
+    z-index: 9999;
+    position:relative;
     margin: 15px 0 40px;
 }
 
@@ -297,6 +305,8 @@ Social
 ************************************************************************************/
 
 #social a.icon {
+    z-index: 9999;
+    position:relative;
     border-radius: 50%;
     
     font-size: 18px;
